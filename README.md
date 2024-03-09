@@ -1,2 +1,2 @@
-# cdn.mailedom-files
-Content Delivery Network
+# Mailedom Files CDN
+### `Content Delivery Network`
