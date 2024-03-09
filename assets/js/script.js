@@ -11,6 +11,7 @@ const app = Vue.createApp({
                 'img/main/general/telegram.svg',
                 'img/main/general/vk.svg',
                 'img/main/general/youtube.svg',
+                'img/main/general/stream.svg',
                 // hud
                 'img/main/hud/bankcard.svg',
                 'img/main/hud/cash.svg',
