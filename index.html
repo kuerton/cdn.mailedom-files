@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/main/general/favicon.svg" type="image/x-icon">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="assets/css/import.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Mailedom RP | Content Delivery Network</title>
+</head>
+<body>
+    <div id="app">
+        <div style="padding: 160px;"></div>
+        <img class="logotype" src="img/main/general/mailedom.svg" alt="">
+        <div style="padding: 15px;"></div>
+        <input type="text" v-model="searchQuery" name="cdn-search" id="cdn-search" placeholder="Введите название файла" @keydown.enter="openImage">
+        <div v-for="image in filteredImages" :key="image">
+            <a :href="`/img/${image}`" target="_blank">
+            </a>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    font-family: "Comfortaa", sans-serif;
+    background-color: #111;
+}
+
+input {
+    font-family: "Comfortaa", sans-serif;
+}
+
+#app {
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+}
+
+.logotype {
+    width: 200px;
+}
+
+.cdn-img {
+    width: 150px;
+}
+
+#cdn-search {
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+}
