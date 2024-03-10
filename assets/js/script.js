@@ -12,6 +12,9 @@ const app = Vue.createApp({
                 'img/main/general/vk.svg',
                 'img/main/general/youtube.svg',
                 'img/main/general/stream.svg',
+                'img/main/general/yoomoney.svg',
+                'img/main/general/qiwi.svg',
+                'img/main/general/sbp.svg',
                 // hud
                 'img/main/hud/bankcard.svg',
                 'img/main/hud/cash.svg',
