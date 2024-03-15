@@ -26,6 +26,7 @@ const app = Vue.createApp({
                 'img/main/pay/yoomoney.svg',
                 'img/main/pay/qiwi.svg',
                 'img/main/pay/sbp.svg',
+                'img/main/pay/ethereum.svg',
             ],
             searchQuery: ''
         }
